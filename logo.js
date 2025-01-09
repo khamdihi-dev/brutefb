@@ -3,10 +3,8 @@ const LohKok = () => {
     ╦  ╔═╗╦   ╦╔═╗
     ║  ║ ║║   ║╚═╗
     ╩═╝╚═╝╩═╝╚╝╚═╝
-
 `;
     console.log(logo);
 };
 
-module.exports = LohKok;
-
+export default LohKok;
