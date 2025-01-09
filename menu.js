@@ -231,7 +231,7 @@ class BruteMenu {
                 console.log(er.message)
             }
         } else if(pilihan == '2'){
-            const isine = fs.readFileSync('data/new.txt','utf-8')
+            const isine = fs.readFileSync('data/hasil.txt','utf-8')
             console.log(`${isine}`)
         } else if(pilihan == '0'){
             process.exit()
